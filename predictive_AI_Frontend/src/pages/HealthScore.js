@@ -7,7 +7,7 @@ function HealthScore({ userId }) {
 
   const fetchData = useCallback(async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/assessment/all/${userId}`);
+      const res = await axios.get(`https://kuposhandetection-1.onrender.com/api/assessment/all/${userId}`);
       setAssessments(res.data.assessments || []);
     } catch (err) { console.error(err); }
     finally { setLoading(false); }

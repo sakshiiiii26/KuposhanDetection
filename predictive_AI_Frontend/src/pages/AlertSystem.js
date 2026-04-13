@@ -172,7 +172,7 @@ function AlertSystem({ userId }) {
   const loadAssessments = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5000/api/assessment/all/${userId}`);
+      const response = await axios.get(`https://kuposhandetection-1.onrender.com/api/assessment/all/${userId}`);
       if (response.data.success) {
         const data = response.data.assessments;
         setAssessments(data);

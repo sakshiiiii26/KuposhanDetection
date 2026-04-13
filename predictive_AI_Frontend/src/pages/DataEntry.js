@@ -48,7 +48,7 @@ function DataEntry({ userId }) {
     const finalMuac = parseFloat(getFinalMuac());
     const accuracy = getMuacAccuracy();
     try {
-      const response = await axios.post('http://localhost:5000/api/assessment/create', {
+      const response = await axios.post('https://kuposhandetection-1.onrender.com/api/assessment/create', {
         user_id: userId, height: parseFloat(basicData.height),
         weight: parseFloat(basicData.weight), muac: finalMuac,
         age_months: parseInt(basicData.age_months), gender: basicData.gender,
