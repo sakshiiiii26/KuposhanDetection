@@ -1,6 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
+  "homepage": "https://sakshiiiii26.github.io/KuposhanDetection",
   "private": true,
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",
