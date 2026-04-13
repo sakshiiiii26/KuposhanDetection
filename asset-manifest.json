@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.74b67d52.css",
-    "main.js": "/static/js/main.814e2a77.js",
-    "index.html": "/index.html",
-    "main.74b67d52.css.map": "/static/css/main.74b67d52.css.map",
-    "main.814e2a77.js.map": "/static/js/main.814e2a77.js.map"
+    "main.css": "/KuposhanDetection/static/css/main.74b67d52.css",
+    "main.js": "/KuposhanDetection/static/js/main.814e2a77.js",
+    "index.html": "/KuposhanDetection/index.html",
+    "main.74b67d52.css.map": "/KuposhanDetection/static/css/main.74b67d52.css.map",
+    "main.814e2a77.js.map": "/KuposhanDetection/static/js/main.814e2a77.js.map"
   },
   "entrypoints": [
     "static/css/main.74b67d52.css",
